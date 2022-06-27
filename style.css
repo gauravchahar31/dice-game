@@ -1,0 +1,55 @@
+body, html{
+    height: 100%;
+    margin: 0%;
+    background-image: url(/dice-game/assets/dice_bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+}
+
+p,label{
+    color: white;
+}
+
+#playerDetailsBox{
+   border-style: solid;
+   border-color: grey;
+   width: fit-content;
+   margin: 25px;
+   padding: 10px;;
+}
+
+label{
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+
+#playerDetails{
+    font-size: 30px;
+}
+
+#playerOne, #playerTwo{
+    height: 25px;
+    width: 300px;
+}
+
+button{
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10%;
+    text-align: center;
+    padding: 10px;
+
+}
+
