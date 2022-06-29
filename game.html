@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
     <title>Dice Game</title>
 </head>
 <body>
-
+    <h1 id="gameHeader"></h1>
+    <hr><br>
+    <div id="playArea">
+        <div id="playerOneArea">
+            <img id="diceImageOne" src="/assets/dice6.png"><br>
+            <label id="playerOneScore">Score : 0</label>
+        </div>
+        <div id="partition"></div>
+        <div id="playerTwoArea">
+            <img id="diceImageTwo" src="/assets/dice6.png"><br>
+            <label id="playerTwoScore">Score : 0</label>
+        </div>
+    </div>
+    <div id="result">
+        <h1 id="resultText"></h1>
+    </div>
+    <h1 id="buttonLine"><button id="playButton">Roll Dice</button></h1>
     <script src="game.js" type="text/javascript"></script>
 </body>
 </html>

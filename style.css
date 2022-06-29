@@ -1,7 +1,7 @@
 body, html{
     height: 100%;
     margin: 0%;
-    background-image: url(/dice-game/assets/dice_bg.jpeg);
+    background-image: url(/assets/dice_bg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,6 +39,10 @@ label{
 #playerOne, #playerTwo{
     height: 25px;
     width: 300px;
+}
+
+#playerTwo{
+    margin-top: 3px;
 }
 
 button{

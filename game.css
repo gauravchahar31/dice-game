@@ -1,3 +1,49 @@
-body{
-    background-color: red;
+body, html{
+    height: 100%;
+    margin: 0%;
+    background-image: url(/assets/dice_bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#gameHeader{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+#playArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#playOneArea, #playTwoArea{
+    width: 100%;
+    flex: 48.5%;
+}
+
+#playerOneName, #playerTwoName{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#playerOneScore, #playerTwoScore{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+#resultText, #buttonLine{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+#playButton{
+    font-size: 35px;
+    border-radius: 10px;
 }
